@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>1주차 과제 - 프로필 만들기</title>
+    <style>
+        .profile-card {
+            width: 60%;
+            margin: 50px auto;
+            padding: 20px;
+            background: #eaeaea;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            font-size: 20px;
+            flex-direction: row;
+            text-align: center;
+        }
+
+        .profile-card button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            background: #007BFF;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .profile-card button:hover {
+            background: #0056b3;
+        }
+
+        .profile-card img {
+            border-radius: 50%;
+        }
+
+        .profile-card h2 {
+            color: #3b82f6;
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        .profile-card p {
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile-card">
+        <img src="./1주차.jpg">
+        <h2>홍</h2>
+        <p>기획자</p>
+        <button>프로필 보기</button>
+    </div>
+    <div class="profile-card">
+        <img src="./1주차.jpg">
+        <h2>길</h2>
+        <p>프론트엔드 개발자</p>
+        <button>프로필 보기</button>
+    </div>
+    <div class="profile-card">
+        <img src="./1주차.jpg">
+        <h2>동</h2>
+        <p>백엔드 개발자</p>
+        <button>프로필 보기</button>
+    </div>
+</body>
+
+</html>
