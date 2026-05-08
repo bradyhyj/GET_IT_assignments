@@ -28,7 +28,7 @@ const render = () => {
     list.appendChild(li);
     delBtn.onclick = () => {
         list.removeChild(li);
-        tasks.splice(tasks.at(task), 1); // 더 완벽히 하고 싶어서 인터넷에서 찾아서 넣은 기능입니다
+        tasks.splice(tasks.findIndex(task), 1);
     };
 
   });
